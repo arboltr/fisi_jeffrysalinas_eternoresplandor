@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'bahnschrift';
+    src: url('Tipografia/bahnschrift.ttf') format('truetype');
+} 
+@font-face {
+    font-family: 'Barlow Condensed Medium';
+    src: url('Tipografia/BarlowCondensed-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Barlow Condensed ExtraBold';
+    src: url('Tipografia/BarlowCondensed-ExtraBold.ttf') format('truetype');
+}    
+        
+        
+        body {background-color: rgb(11, 17, 30); 
+            text-align: center;
+            font-family: 'bahnschrift'; }
+        #important {font-family: 'Barlow Condensed ExtraBold', 'sans serif';
+            color: rgb(241, 245, 249);}
+        #semimportant {font-family: 'Barlow Condensed Medium';
+            color:rgb(170, 185, 205);}
+        #minititles {font-family: 'Barlow Condensed Medium';
+            color: rgb(245, 158, 11);}
+        #regtext {font-family: 'bahnschrift';
+            color: rgb(180, 182, 195);}
+        #backdiv {background-color: rgb(22, 32, 50);
+            align-self: center;
+            margin-top: 5%;
+            margin-left: 10%;                         
+            margin-right: 10%;
+            border-radius: 25px;}
+        #backdiv2 {background-color: rgb(34, 48, 74);}
+        #backdiv3 {background-color: rgb(22, 32, 50);
+             align-self: center;
+            margin-top: 5%;
+            margin-left: 10%;                         
+            margin-right: 10%;
+            border-radius: 25px;}
+        #backdiv4 {background-color:  rgb(34, 48, 74);}
+        #divcontinst {font-family:'Barlow Condensed Medium';
+            color: rgb(200, 210, 225);
+            display: flex;
+            align-items: center; 
+            justify-content: space-between; 
+            width: 90%;
+            max-width: 900px;          
+            margin: 0 auto;}          
+        #texto-cabecera {text-align: center;
+            flex-grow: 1;}
+        #logo-lateral {width: 90px;      
+            height: auto;}
+        #divcontind {font-family:'Barlow Condensed Medium';
+            color: rgb(200, 210, 225);
+            display: flex;
+            align-items: center; 
+            justify-content: space-between; 
+            width: 90%;
+            max-width: 900px;          
+            margin: 0 auto;}
